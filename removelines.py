@@ -5,9 +5,9 @@ file2 = open('CodingalUpdate.txt',
 
 for lines in file1.readlines():
 
-    if not (lines.starting with('Coding')):
+    if not (lines.startswith('Coding')):
 
-        print(line)
+        print(lines)
 
         file2.write(lines)
 
